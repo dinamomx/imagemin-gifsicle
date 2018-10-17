@@ -1,6 +1,6 @@
 'use strict';
 const execBuffer = require('exec-buffer');
-const gifsicle = require('gifsicle');
+const gifsicle = require('@dinamomx/gifsicle');
 const isGif = require('is-gif');
 
 module.exports = opts => buf => {
